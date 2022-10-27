@@ -9,8 +9,8 @@ module.exports = {
     paycaps_salt: 'XXXXXXXXXXXXXXXXX',
 
     payment_url: {
-        'prod': 'https://secure.paycaps.com/pg/jsp/paymentrequest',
-        'test': 'https://test.paycaps.com/pg/jsp/paymentrequest'
+        'prod': 'https://secure.interpayservice.com/pgui/jsp/paymentrequest',
+        'Sandbox': 'https://sandbox.interpayservice.com/pgui/jsp/paymentrequest'
     },
 
     headers: {
